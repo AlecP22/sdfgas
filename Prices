@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang= "en">
+	 <head>
+	  <title>My Forever Home</title>
+	  <meta charset= "UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=0.51">
+	  <link href= "midterm(CSS).css" rel= "stylesheet">
+	  <style>
+	  .links {  
+	  font-size: 245%;
+	  font-family: arial;
+	  text-align: center;
+	  background-color: #ff9a00;
+	  text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+	  transition: transform .5s;
+      animation: fadeIn 2s; 
+	}
+	
+	  a {
+	  
+	 color: inherit;
+	 
+	 }
+	  </style>
+	 </head>
+ <body>
+	<div class= "logo"><a href= "https://spotsociety.org/" target= "_blank"><img src= "imagesM/my-forever-home-1.png" alt= "logo"></a>
+		</div>
+	  <main class = "wrapper">
+		<header>
+			<div class = "H1S">
+				<h1 class= "header1" >Our mission</h1>
+				<p class= "statement">At My Forever Home, we strive to provide a safe, nurturing environment for our animals and ensure that every animal in our care will be sent to loving forever homes. </p>
+			</div>
+		</header>
+	    <div class="container">
+			<img src="imagesM/cat-2.jpg" alt="Fluffy" class="image">
+		     <div class="overlay">
+          <div class="text">Fluffy</div>
+             </div>
+        </div>		  
+		<div class="container2">
+			<img src="imagesM/cat-1.png" alt="Fluffy" class="image2">
+		     <div class="overlay2">
+          <div class="text2">Whiskers</div>
+             </div>
+        </div>	
+		<div class="container3">
+			<img src="imagesM/dog-1.png" alt="mint" class="image3">
+		     <div class="overlay3">
+          <div class="text3">Mint</div>
+             </div>
+        </div>	
+ 	
+	  </main>
+	  <p class= "links"> Click on the links below to find our adoption process, price, and available pets!</p>
+			<a class="button" href="https://www.w3docs.com/learn-html/html-button-tag.html">Adoption Process</a>
+			<a class="button3" href="https://www.w3docs.com/learn-html/html-button-tag.html">List of Pets and Prices</a>
+   <div class= "footer">
+	 <footer>
+	 <nav>
+	 <p>Contact us!</p>
+	 <p> 202-555-0178 </P>
+	 <p> or </p>
+	 <a href="skype:echo123?call" ><img src= "imagesM/icons8-skype-64.png" alt= "skype"></a>
+	 <p><a href="#">Top of Page</a></p>
+	</nav>
+	 </footer>
+   </div>
+ </body>
+</html>
+
